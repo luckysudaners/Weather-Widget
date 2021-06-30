@@ -57,7 +57,7 @@ button = tk.Button(frame, text="Get Weather", font=('Courier', 12),
 button.place(relx=0.65, relheight=1, relwidth=0.3)
 
 lower_frame = tk.Frame(root, bg='#80c1ff', bd=10)
-lower_frame.place(relx=0.5, rely=0.25, relwidth=0.8,
+lower_frame.place(relx=0.5, rely=0.25, relwidth=0.75,
                   relheight=0.6, anchor='n')
 
 label = tk.Label(lower_frame, font=('Courier', 18),
