@@ -1,11 +1,9 @@
 import tkinter as tk
 import requests
+import config
 
 Height = 500
 Width = 600
-
-# api.openweathermap.org/data/2.5/forecast?id={city ID}&appid={your api key}
-# d19ece1acf454edbc7f8cabdadd931f0
 
 
 def test_function():
@@ -27,7 +25,7 @@ def format_response(weather):
 
 
 def get_weather(city):
-    weather_key = 'd19ece1acf454edbc7f8cabdadd931f0'
+    weather_key = config.api_key
     url = 'https://api.openweathermap.org/data/2.5/weather'
     params = {'APPID': weather_key, 'q': city, 'units': 'imperial'}
     response = requests.get(url, params=params)
