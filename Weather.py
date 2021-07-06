@@ -3,7 +3,7 @@ import requests
 import config
 
 Height = 500
-Width = 600
+Width = 650
 
 
 def test_function():
