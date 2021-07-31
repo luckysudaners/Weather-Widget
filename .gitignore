@@ -1,11 +1,8 @@
 config.py
-<<<<<<< HEAD
-
-=======
 test.py
->>>>>>> fcffcd86b3e7beaa7a6595f314b4c1762e466455
 
-# Logs
+
+Logs
 logs
 *.log
 npm-debug.log*
@@ -123,3 +120,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
