@@ -1,5 +1,9 @@
 config.py
+<<<<<<< HEAD
 
+=======
+test.py
+>>>>>>> fcffcd86b3e7beaa7a6595f314b4c1762e466455
 
 # Logs
 logs
